@@ -2,7 +2,7 @@ const questions = [
   {
     question: "Czy mogę zapisać dziecko tylko na jeden dzień?",
     answer:
-      "Tak. Można wybrać jeden dzień, kilka wybranych dni albo dłuższy cykl warsztatów – zależnie od potrzeb rodziny i dostępności miejsc.",
+      "Tak. Można wybrać jeden dzień, kilka wybranych dni albo dłuższy cykl warsztatów - zależnie od potrzeb rodziny i dostępności miejsc.",
   },
   {
     question: "Czy dziecko musi znać język angielski?",
@@ -37,7 +37,9 @@ export function FAQ() {
       <div className="container-site grid gap-12 lg:grid-cols-[.72fr_1.28fr] lg:gap-20">
         <div>
           <span className="eyebrow eyebrow-light">Najczęstsze pytania</span>
-          <h2 className="display-title display-title-light mt-5 text-4xl md:text-5xl">Wszystko, co warto wiedzieć przed zapisem.</h2>
+          <h2 className="display-title display-title-light mt-5 text-4xl md:text-5xl">
+            Wszystko, co warto wiedzieć przed zapisem.
+          </h2>
           <p className="mt-6 max-w-md text-lg leading-8 text-white/80">
             Nie widzisz odpowiedzi na swoje pytanie? Zadzwoń lub napisz. Chętnie opowiemy o programie i
             organizacji dnia.

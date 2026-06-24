@@ -22,7 +22,7 @@ export function Header() {
         Przejdź do treści
       </a>
       <div className="container-site flex h-20 items-center justify-between">
-        <a href="#start" className="flex items-center gap-3" aria-label="Mission Offline – strona główna">
+        <a href="#start" className="flex items-center gap-3" aria-label="Mission Offline - strona główna">
           <span className="grid size-11 shrink-0 place-items-center border border-brass/45 text-brass">
             <Icon name="compass" className="size-6" />
           </span>

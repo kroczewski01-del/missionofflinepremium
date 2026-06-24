@@ -2,10 +2,10 @@ import type { Metadata } from "next";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://missionoffline.pl"),
+  metadataBase: new URL("https://akademiaprzygody.com"),
   title: "Mission Offline | Wakacyjna Akademia Przygody dla dzieci",
   description:
-    "Mission Offline to całodniowe warsztaty wakacyjne dla dzieci 6–13 lat na warszawskim Bemowie. Ruch, współpraca, przygoda i angielski w praktyce.",
+    "Mission Offline to całodniowe warsztaty wakacyjne dla dzieci 6-13 lat na warszawskim Bemowie. Ruch, współpraca, przygoda i angielski w praktyce.",
   keywords: [
     "warsztaty wakacyjne dla dzieci Warszawa",
     "aktywne wakacje dla dzieci Warszawa",
@@ -15,9 +15,9 @@ export const metadata: Metadata = {
     "angielski dla dzieci Warszawa",
   ],
   openGraph: {
-    title: "Mission Offline – Wakacje pełne przygód. Bez ekranów.",
+    title: "Mission Offline - Wakacje pełne przygód. Bez ekranów.",
     description:
-      "Całodniowe wakacyjne misje dla dzieci 6–13 lat: ruch, współpraca, twórcze wyzwania i angielski w praktyce.",
+      "Całodniowe wakacyjne misje dla dzieci 6-13 lat: ruch, współpraca, twórcze wyzwania i angielski w praktyce.",
     type: "website",
     locale: "pl_PL",
   },

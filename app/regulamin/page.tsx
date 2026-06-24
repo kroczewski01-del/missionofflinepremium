@@ -22,7 +22,7 @@ export default function TermsPage() {
           <section>
             <h2 className="text-xl font-bold text-charcoal">Organizacja warsztatów</h2>
             <p className="mt-3">
-              Program jest przeznaczony dla dzieci w wieku 6–13 lat i odbywa się w godzinach 8:00–16:00.
+              Program jest przeznaczony dla dzieci w wieku 6-13 lat i odbywa się w godzinach 8:00-16:00.
               Szczegóły wybranego terminu oraz informacje organizacyjne przekazujemy rodzicowi przed
               potwierdzeniem udziału.
             </p>

@@ -111,9 +111,9 @@ function buildEmail(data: ContactData) {
   const tableRows = rows
     .map(
       ([label, value]) =>
-        `<tr><th align="left" style="padding:8px 12px;border-bottom:1px solid #e6ddcf;color:#2d3136">${escapeHtml(
+        `<tr><th align="left" style="padding:8px 12px;border-bottom:1px solid #E8DDC8;color:#13233A">${escapeHtml(
           label,
-        )}</th><td style="padding:8px 12px;border-bottom:1px solid #e6ddcf;color:#2d3136">${escapeHtml(
+        )}</th><td style="padding:8px 12px;border-bottom:1px solid #E8DDC8;color:#13233A">${escapeHtml(
           value,
         ).replace(/\n/g, "<br />")}</td></tr>`,
     )
@@ -131,8 +131,8 @@ function buildEmail(data: ContactData) {
   ].join("\n");
 
   const html = `
-    <div style="font-family:Arial,sans-serif;line-height:1.5;color:#2d3136">
-      <h1 style="margin:0 0 16px;color:#2d3136">Nowa wiadomość z formularza Mission Offline</h1>
+    <div style="font-family:Arial,sans-serif;line-height:1.5;color:#13233A">
+      <h1 style="margin:0 0 16px;color:#13233A">Nowa wiadomość z formularza Mission Offline</h1>
       <table cellpadding="0" cellspacing="0" style="border-collapse:collapse;width:100%;max-width:680px">
         ${tableRows}
       </table>
@@ -186,7 +186,7 @@ export async function POST(request: Request) {
         from,
         to: [to],
         reply_to: data.email,
-        subject: `Nowa wiadomość Mission Offline — ${data.parentName}`,
+        subject: `Nowa wiadomość Mission Offline - ${data.parentName}`,
         text,
         html,
       }),

@@ -229,7 +229,7 @@ export function ContactForm() {
         disabled={status === "sending"}
         className="button-primary mt-7 inline-flex w-full items-center justify-center gap-3 px-6 py-4 font-bold disabled:cursor-wait disabled:opacity-65"
       >
-        {status === "sending" ? "Wysyłanie…" : "Wyślij wiadomość"}
+        {status === "sending" ? "Wysyłanie…" : "Sprawdź dostępność miejsca dla swojego dziecka"}
         {status !== "sending" && <Icon name="arrow" className="size-5" />}
       </button>
 
